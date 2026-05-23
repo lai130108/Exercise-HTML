@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f2f2f2;
+    padding:20px;
+}
+
+.header{
+    background:#4a90e2;
+    color:white;
+    text-align:center;
+    padding:30px;
+    border-radius:0 0 15px 15px;
+}
+
+.header p{
+    margin-top:10px;
+    font-size:14px;
+}
+
+.section{
+    background:white;
+    margin-top:20px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 5px rgba(0,0,0,0.1);
+}
+
+h2{
+    margin-bottom:15px;
+}
+
+
+.img-box img{
+    width:300px;
+    height:180px;
+    border-radius:8px;
+}
+
+.circle{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    
+}
+
+.oval{
+    width:300px;
+    height:180px;
+    border-radius:50%;
+    
+}
+
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:10px;
+}
+
+table,
+th,
+td{
+    border:1px solid #ccc;
+}
+
+th{
+    background:#4a90e2;
+    color:white;
+    padding:10px;
+}
+
+td{
+    text-align:center;
+    padding:10px;
+}
+
+
+form{
+    width:400px;
+    margin:auto;
+}
+
+label{
+    font-weight:bold;
+    display:block;
+    margin-top:10px;
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+.radio-group,
+.check-group{
+    margin-top:10px;
+}
+
+.radio-group input,
+.check-group input{
+    width:auto;
+}
+
+button{
+    background:#4a90e2;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    margin-top:15px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#357abd;
+}
